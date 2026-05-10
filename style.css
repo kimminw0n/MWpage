@@ -1,13 +1,13 @@
 :root {
-    --bg-color: #0b110e;
-    --surface-color: #15221b;
-    --primary-color: #2dd4bf;
-    --secondary-color: #0ea5e9;
+    --bg-color: #050b14;
+    --surface-color: #0b1524;
+    --primary-color: #3b82f6;
+    --secondary-color: #06b6d4;
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
     --font-family: 'Inter', 'Noto Sans KR', sans-serif;
-    --glass-bg: rgba(21, 34, 27, 0.65);
-    --glass-border: rgba(45, 212, 191, 0.2);
+    --glass-bg: rgba(11, 21, 36, 0.65);
+    --glass-border: rgba(59, 130, 246, 0.2);
 }
 
 * {
@@ -115,7 +115,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(11, 17, 14, 0.3), var(--bg-color)), url('assets/hero_bg.png');
+    background-image: linear-gradient(to bottom, rgba(5, 11, 20, 0.5), var(--bg-color)), url('assets/hero_bg_it.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
