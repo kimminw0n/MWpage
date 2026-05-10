@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Splash Screen Logic
+    const splashScreen = document.getElementById('splash-screen');
+    if (splashScreen) {
+        setTimeout(() => {
+            splashScreen.classList.add('fade-out');
+        }, 2000); // Hide after 2 seconds
+    }
+
     // Navbar scroll effect
     const navbar = document.getElementById('navbar');
     
